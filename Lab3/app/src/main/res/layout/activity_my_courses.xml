@@ -76,18 +76,58 @@
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Змінити статус: "
+                            android:textColor="#2D3436" />
+                        <Spinner
+                            android:id="@+id/spinnerStatus1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Статус: В процесі"
-                        android:textColor="#FF9800"
-                        android:layout_marginTop="4dp" />
+                        android:layout_marginTop="12dp"
+                        android:text="Ваш відгук та оцінка:"
+                        android:textStyle="bold" />
+
+                    <RatingBar
+                        android:id="@+id/rbNewRating1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:numStars="5"
+                        android:stepSize="1.0"
+                        android:isIndicator="false" />
+
+                    <EditText
+                        android:id="@+id/etReview1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Текст відгуку..."
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/btnSubmitReview1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:text="Оцінити"
+                        android:textSize="12sp" />
 
                     <Button
                         android:id="@+id/btnUnsubscribe1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="16dp"
+                        android:layout_marginTop="8dp"
                         android:text="Відписатися"
                         android:backgroundTint="#F44336" />
                 </LinearLayout>
@@ -114,18 +154,50 @@
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
-                    <TextView
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Змінити статус: " />
+                        <Spinner
+                            android:id="@+id/spinnerStatus2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <RatingBar
+                        android:id="@+id/rbNewRating2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Статус: В процесі"
-                        android:textColor="#FF9800"
-                        android:layout_marginTop="4dp" />
+                        android:layout_marginTop="12dp"
+                        android:numStars="5"
+                        android:stepSize="1.0"
+                        android:isIndicator="false" />
+
+                    <EditText
+                        android:id="@+id/etReview2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Текст відгуку..."
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/btnSubmitReview2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:text="Оцінити"
+                        android:textSize="12sp" />
 
                     <Button
                         android:id="@+id/btnUnsubscribe2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="16dp"
+                        android:layout_marginTop="8dp"
                         android:text="Відписатися"
                         android:backgroundTint="#F44336" />
                 </LinearLayout>
@@ -152,18 +224,50 @@
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
-                    <TextView
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Змінити статус: " />
+                        <Spinner
+                            android:id="@+id/spinnerStatus3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <RatingBar
+                        android:id="@+id/rbNewRating3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Статус: В процесі"
-                        android:textColor="#FF9800"
-                        android:layout_marginTop="4dp" />
+                        android:layout_marginTop="12dp"
+                        android:numStars="5"
+                        android:stepSize="1.0"
+                        android:isIndicator="false" />
+
+                    <EditText
+                        android:id="@+id/etReview3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Текст відгуку..."
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/btnSubmitReview3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:text="Оцінити"
+                        android:textSize="12sp" />
 
                     <Button
                         android:id="@+id/btnUnsubscribe3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="16dp"
+                        android:layout_marginTop="8dp"
                         android:text="Відписатися"
                         android:backgroundTint="#F44336" />
                 </LinearLayout>

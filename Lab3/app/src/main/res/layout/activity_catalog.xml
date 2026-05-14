@@ -81,10 +81,19 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:layout_marginBottom="24dp"
                         android:text="Курс для початківців"
                         android:textColor="#636E72"
                         android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/tvAvgRating1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="16dp"
+                        android:text="Рейтинг: 5.0 ★"
+                        android:textColor="#F1C40F"
+                        android:textStyle="bold" />
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/btnBuyCourse1"
@@ -126,10 +135,19 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:layout_marginBottom="24dp"
                         android:text="Курс для початківців"
                         android:textColor="#636E72"
                         android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/tvAvgRating2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="16dp"
+                        android:text="Рейтинг: 4.0 ★"
+                        android:textColor="#F1C40F"
+                        android:textStyle="bold" />
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/btnBuyCourse2"
@@ -171,10 +189,19 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:layout_marginBottom="24dp"
                         android:text="Курс для початківців"
                         android:textColor="#636E72"
                         android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/tvAvgRating3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="16dp"
+                        android:text="Рейтинг: 5.0 ★"
+                        android:textColor="#F1C40F"
+                        android:textStyle="bold" />
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/btnBuyCourse3"
@@ -189,5 +216,4 @@
 
         </LinearLayout>
     </ScrollView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
