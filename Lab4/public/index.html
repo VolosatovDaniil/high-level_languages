@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторна робота №4</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="box">
+        <h3>Авторизація</h3>
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="pass" placeholder="Пароль">
+        <button onclick="auth('register')">Зареєструватися</button>
+        <button onclick="auth('login')">Увійти</button>
+        <div id="tokenDisplay">Токен...</div>
+    </div>
+
+    <div class="box">
+        <h3>Керування товарами</h3>
+        <input type="text" id="prodName" placeholder="Назва товару">
+        <input type="number" id="prodPrice" placeholder="Ціна">
+        <input type="number" id="prodCatId" placeholder="ID Категорії">
+        <button onclick="addProduct()">Додати товар</button>
+        <hr>
+        <input type="number" id="deleteId" placeholder="ID товару для видалення">
+        <button onclick="deleteProduct()" style="background: #dc3545;">Видалити</button>
+    </div>
+
+    <div class="box">
+        <h3>Залишити відгук</h3>
+        <input type="number" id="revProdId" placeholder="ID товару">
+        <input type="text" id="revText" placeholder="Ваш коментар">
+        <input type="number" id="revRating" placeholder="Оцінка (1-5)" min="1" max="5">
+        <button onclick="addReview()" style="background: #28a745;">Надіслати відгук</button>
+    </div>
+
+    <div class="box">
+        <button onclick="getProducts()">Завантажити дані</button>
+        <pre id="output">Результат...</pre>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
